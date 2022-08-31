@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+    height: 8rem;
+    color: white;
+    box-shadow: 0px 1px 8px 0px white;
+}
+
+nav img{
+    width: 10%;
+    height: 8rem;
+}
+
+nav h1{
+    margin-left: 21vh;
+    margin-top: -115px;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav li{
+    background-color: black;
+    display: inline;
+    width: 20%;
+    height: 5px;
+    float: right;
+    margin: 2vh;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+nav li:hover{
+    text-shadow: 2px 4px rgb(68, 61, 61);
+    transition: 0.2s
+}
+
+.cajagrande{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 11cm;
+    margin-top: 80px;
+    padding-left: 6vh;
+}
+
+.cajagrande img{
+    background-color: white;
+    width: 30%;
+    height: 18rem;
+    margin: 10px;
+}
